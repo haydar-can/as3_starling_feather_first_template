@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="FigureApplicationDesktop">
+    <configurations>
+      <configuration name="FigureApplication" target-platform="Mobile" pure-as="true" main-class="THYDOCOFigure" output-file="THYDOCOFigure.swf" output-folder="$MODULE_DIR$/out/production/FigureApplication">
+        <dependencies target-player="22.0">
+          <entries>
+            <entry library-id="b55e4e39-b8e5-41db-9574-ea49dabbc181">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="Adobe Air" />
+        </dependencies>
+        <compiler-options>
+          <option name="additionalOptions" value="-locale en_US -omit-trace-statements=false -swf-version=30" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/THYDOCOFigure-app.xml" package-file-name="THYDOCOFigure" />
+        <packaging-ios package-file-name="THYDOCOFigure" />
+      </configuration>
+      <configuration name="FigureApplicationDesktop" target-platform="Desktop" pure-as="true" main-class="THYDOCOFigure" output-file="FigureApplicationDesktop.swf" output-folder="$MODULE_DIR$/out/production/FigureApplication">
+        <dependencies>
+          <entries>
+            <entry library-id="73dc58e2-24e4-457f-9724-20f600b5ba83">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="Adobe Air" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/THYDOCOFigureDesktop-app.xml" package-file-name="FigureApplicationDesktop" />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+      <configuration name="FigureApplicationWeb" pure-as="true" main-class="THYDOCOFigure" output-file="FigureApplicationWeb.swf" output-folder="$MODULE_DIR$/out/production/FigureApplication">
+        <dependencies target-player="23.0">
+          <sdk name="Adobe Air" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ane" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Adobe Air" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="b55e4e39-b8e5-41db-9574-ea49dabbc181" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/swc" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/swc" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="73dc58e2-24e4-457f-9724-20f600b5ba83" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/swc" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/swc" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
